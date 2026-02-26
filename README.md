@@ -3,7 +3,7 @@
 
 ## Descripción General
 
-Stream Music es un proyecto de análisis de datos musicales cuyo objetivo es extraer información proveniente de un archivo JSON de Spotify y una API de Last.fm para explorar el comportamiento de los oyentes, tendencias de géneros musicales, artistas y canciones entre 2015 y 2018. 
+Stream Music es un proyecto de análisis de datos musicales cuyo objetivo es extraer información proveniente de un archivo JSON de Spotify y una API de Last.fm para explorar el comportamiento de los oyentes, tendencias de géneros musicales, artistas y canciones. Se seleccionaron 5 géneros (flamenco, indie, reggaeton, pop y rock) y se estableció un rango de años del 2013-2015. 
 Este proyecto se divide en cuatro fases principales: extracción de datos, modelado de base de datos, análisis mediante SQL y visualización de resultados.
 
 ---
@@ -26,7 +26,7 @@ Esta fase comprende la modelización y carga de los datos:
 
 - Diseño del modelo relacional: Se definen las entidades principales (artistas, canciones, géneros, años, etc.) y sus relaciones.
 
-- Creación de la base de datos: Implementación del modelo de manera automatico en lenguaje Python.
+- Creación de la base de datos: Implementación del modelo de manera automatico en lenguaje Python usando MySQL connector.
 
 - Carga de datos: Inserción de los datos provenientes de los archivos CSV en las tablas correspondientes usando Python.
 
